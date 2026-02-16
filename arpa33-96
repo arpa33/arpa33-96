@@ -8,10 +8,6 @@ chatIds =
 [notification.dummy]
 enabled = true
 
-; chain settings
-[chain]
-; name to be displayed on notifications
-name = 
 ; chain type (e.g. "tendermint" | "substrate")
 type = 
 ; systemd service name
@@ -30,6 +26,10 @@ localVersion =
 ; mount point
 mountPoint = 
 
+; chain settings
+[chain]
+; name to be displayed on notifications
+name = 
 ; task specific settings
 [tasks]
 ; comma separated list of disabled tasks
