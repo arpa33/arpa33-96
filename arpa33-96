@@ -10,12 +10,7 @@ enabled = true
 
 ; chain type (e.g. "tendermint" | "substrate")
 type = 
-; systemd service name
-service = 
-; endpoint uri, if different from default
-endpoint = 
-; block time
-blockTime =
+
 activeSet = 
 thresholdNotsigned = 
 blockWindow = 
@@ -40,3 +35,9 @@ autoRecover = true
 govAdmin =
 ; Prometheus exporter port
 exporterPort =
+; systemd service name
+service = 
+; endpoint uri, if different from default
+endpoint = 
+; block time
+blockTime =
