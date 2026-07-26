@@ -8,11 +8,6 @@ class NebulaForge:
         self.name = "NebulaForge"
         self.version = "1.0.0"
 
-    def start(self):
-        print(f"{self.name} v{self.version}")
-        print("Automation Engine Started")
-        print(f"Started at: {datetime.now()}")
-
     def run_task(self, task):
         print(f"Running task: {task}")
         print("Task completed successfully.")
@@ -31,3 +26,7 @@ open-source
 cli
 toolkit
 architecture
+  def start(self):
+        print(f"{self.name} v{self.version}")
+        print("Automation Engine Started")
+        print(f"Started at: {datetime.now()}")
