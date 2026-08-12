@@ -12,12 +12,7 @@ class NebulaForge:
         print(f"Running task: {task}")
         print("Task completed successfully.")
 
-if __name__ == "__main__":
-    app = NebulaForge()
-    app.start()
-    app.run_task("System Initialization")
-automation
-framework
+
 python
 modular
 developer-tools
@@ -30,3 +25,9 @@ architecture
         print(f"{self.name} v{self.version}")
         print("Automation Engine Started")
         print(f"Started at: {datetime.now()}")
+if __name__ == "__main__":
+    app = NebulaForge()
+    app.start()
+    app.run_task("System Initialization")
+automation
+framework
